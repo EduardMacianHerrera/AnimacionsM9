@@ -10,6 +10,7 @@ import com.mygdx.animacions.Animacions;
 public class IOSLauncher extends IOSApplication.Delegate {
     @Override
     protected IOSApplication createApplication() {
+
         IOSApplicationConfiguration config = new IOSApplicationConfiguration();
         return new IOSApplication(new Animacions(), config);
     }
