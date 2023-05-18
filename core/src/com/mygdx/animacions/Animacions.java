@@ -185,6 +185,8 @@ public class Animacions extends ApplicationAdapter {
 		return IDLE;
 	}
 
+	// COMUNICACIONS (rebuda de missatges)
+	/////////////////////////////////////////////
 	class MyWSListener implements WebSocketListener {
 
 		@Override
